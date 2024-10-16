@@ -7,8 +7,6 @@ function renderTodoList() {
 
     for (let i = 0; i < todoList.length; i++) {
         const todoObject = todoList[i];
-        //const name = todoObject.name;
-        //const dueDate = todoObject.dueDate;
         const { name, dueDate } = todoObject;
         const html = `
             <div>${name}</div>
@@ -34,8 +32,6 @@ function addList() {
     const dueDate = dueDateinputElement.value;
 
     todoList.push({
-        //name : name,
-        //dueDate : dueDate
         name,
         dueDate
     });
