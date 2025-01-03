@@ -1,8 +1,5 @@
 body{
-    font-family: arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    font-family: arial; 
 }
 
 .input-container, .output-container{
