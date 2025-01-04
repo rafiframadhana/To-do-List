@@ -1,6 +1,13 @@
-body{
-    font-family: arial; 
+body {
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    margin: 0;
+    padding-top: 50px;      
 }
+
 
 .input-container, .output-container{
     display: grid;
@@ -33,4 +40,3 @@ body{
 .delete-button{
     background-color: rgb(146, 0, 0);
 }
-
